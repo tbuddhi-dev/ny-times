@@ -85,6 +85,7 @@ The coverage report will be generated in the coverage folder.
 ## API Information
 
 This app uses the NY Times Most Popular Articles API to fetch the articles. The API is accessed using the following URL format:
+
     ```bash
     https://api.nytimes.com/svc/mostpopular/v2/viewed/{time-period}.json?api-key={your-api-key}
     
