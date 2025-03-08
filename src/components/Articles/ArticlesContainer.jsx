@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import PropTypes from 'prop-types';
 import ArticleList from './ArticleList';
 import ArticleDetail from './ArticleDetail';
 import styles from './ArticlesContainer.module.scss';
@@ -32,6 +33,14 @@ const ArticlesContainer = ({ articles, selectedArticle, onArticleSelect, loading
       {selectedArticle && <ArticleDetail article={selectedArticle} />}
     </div>
   );
+};
+
+ArticlesContainer.propTypes = {
+  articles: PropTypes.arrayOf(PropTypes.object).isRequired, // Expect an array of article objects
+  selectedArticle: PropTypes.object, // Can be null or an article object
+  onArticleSelect: PropTypes.func.isRequired, // Function to handle article selection
+  loading: PropTypes.bool.isRequired, // Boolean for loading state
+  error: PropTypes.string // Error message (can be null)
 };
 
 export default ArticlesContainer;

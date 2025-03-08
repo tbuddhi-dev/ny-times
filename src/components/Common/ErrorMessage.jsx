@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styles from './ErrorMessage.module.scss';
 
 const ErrorMessage = ({ message }) => {
@@ -7,6 +8,10 @@ const ErrorMessage = ({ message }) => {
       <p>{message}</p>
     </div>
   );
+};
+
+ErrorMessage.propTypes = {
+  message: PropTypes.string.isRequired,
 };
 
 export default ErrorMessage;

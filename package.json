@@ -8,7 +8,6 @@
     "@testing-library/react": "^16.2.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.8.1",
-    "eslint": "^8.57.1",
     "jest": "^27.5.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -19,9 +18,11 @@
   },
   "scripts": {
     "type": "module",
+    "lint": "eslint 'src/**/*.{js,jsx}'",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:coverage": "react-scripts test --coverage",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -46,7 +47,10 @@
     "@babel/preset-env": "^7.26.9",
     "@babel/preset-react": "^7.26.3",
     "babel-jest": "^29.7.0",
-    "cypress": "^14.1.0"
+    "cypress": "^14.1.0",
+    "eslint": "^8.57.1",
+    "eslint-plugin-react": "^7.37.4",
+    "globals": "^16.0.0"
   },
   "jest": {
     "moduleNameMapper": {
