@@ -2,6 +2,7 @@
 
 This project is a React-based web app that fetches the most popular articles from the New York Times using the NY Times Most Popular Articles API. Users can select a time frame to view the most popular articles for the day, the last 7 days, or the last 30 days.
 
+## Deployed Link: [Demo](https://nytimespoparticles.netlify.app)
 ## Features
 
 - Fetches articles based on the time frame (1, 7, 30 days).
@@ -38,8 +39,9 @@ To run this project locally, follow these steps:
     For 'yarn'
     ### `yarn install`
 
-4. Set up environment variables:
+    **Note**: From this point onward, the instructions assume you're using npm. If you're using yarn, please use the equivalent yarn commands.
 
+4. Set up environment variables:
     ```bash
     REACT_APP_NYTIMES_API_KEY=your-nytimes-api-key
     REACT_APP_API_URL="https://api.nytimes.com/svc/mostpopular/v2/viewed"
