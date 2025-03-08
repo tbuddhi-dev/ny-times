@@ -26,5 +26,29 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/tbuddhi-dev/ny-times.git
+    ```bash
+    git clone https://github.com/tbuddhi-dev/ny-times.git
+
+2. Navigate to the project directory:
+
+cd ny-times
+
+3. Install the necessary dependencies:
+For 'npm':
+### 'npm install'
+For 'yarn'
+### 'yarn install'
+
+4. Set up environment variables:
+Create a .env file in the root of the project and add the following
+    ```bash
+    REACT_APP_NYTIMES_API_KEY=your-nytimes-api-key
+    REACT_APP_API_URL="https://api.nytimes.com/svc/mostpopular/v2/viewed"
+
+Replace your-nytimes-api-key with your actual NY Times API key.
+
+## Running the App
+
+### 'npm start'
+
+This will start the app on http://localhost:3000. You can open this URL in your browser to view the app.
