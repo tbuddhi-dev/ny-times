@@ -2,7 +2,10 @@
 
 This project is a React-based web app that fetches the most popular articles from the New York Times using the NY Times Most Popular Articles API. Users can select a time frame to view the most popular articles for the day, the last 7 days, or the last 30 days.
 
-## Deployed Link: [Demo](https://nytimespoparticles.netlify.app)
+## Deployed Application
+
+You can view the live version of the app here: [NY Times Most Popular Articles Demo](https://nytimespoparticles.netlify.app)
+
 ## Features
 
 - Fetches articles based on the time frame (1, 7, 30 days).
