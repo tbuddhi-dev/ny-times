@@ -50,8 +50,9 @@ To run this project locally, follow these steps:
     REACT_APP_NYTIMES_API_KEY=your-nytimes-api-key
     REACT_APP_API_URL="https://api.nytimes.com/svc/mostpopular/v2/viewed"
 
-Replace your-nytimes-api-key with your actual NY Times API key.
-**Note:**For the purposes of this assessment, the NY Times API key is already included in the code. However, in a production environment, it is strongly recommended to replace this with your own API key and store it securely.
+Replace 'your-nytimes-api-key' with your actual NY Times API key.
+
+**Note**: For the purposes of this assessment, the NY Times API key is already included in the code. However, in a production environment, it is strongly recommended to replace this with your own API key and store it securely.
 
 ## Running the App
 
