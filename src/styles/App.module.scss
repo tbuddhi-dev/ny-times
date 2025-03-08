@@ -1,0 +1,26 @@
+.appContainer {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .appHeader {
+    text-align: center;
+    color: #367fd0;
+    text-shadow: 0px 0px 25px #6282a5;
+    // margin-bottom: 40px;
+
+    .timeFrameSelector{
+        display: flex;
+        padding-left: 2rem;
+    }
+  }
+  
+  .mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
