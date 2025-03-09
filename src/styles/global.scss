@@ -1,22 +1,24 @@
+@import './_variables.scss';
+
 h2 {
     margin: 1rem 0;
     font-size: 2rem;
-    color: #2f2f2f;
+    color: $text-color-dark;
 }
 
 h3 {
     margin: 0;
     font-size: 1.25rem;
-    color: #555555;
+    color: $title-color-dark;
 }
 
 p {
     font-size: 1rem;
     margin-bottom: 0.5rem;
-    color: #555;
+    color: $text-color-dark;
 
     strong {
-        color: #333;
+        color: $text-color-dark;
     }
 }
 
@@ -24,13 +26,13 @@ a {
     display: inline-block;
     margin-top: 1.5rem;
     padding: 0.75rem 1.25rem;
-    background-color: #8552e4;
-    color: #fff;
+    background-color: $primary-color;
+    color: $background-color;
     text-decoration: none;
     border-radius: 8px;
     transition: background-color 0.3s ease;
 
     &:hover {
-        background-color: #005bb5;
+        background-color: $primary-color-hover;
     }
 }

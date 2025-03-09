@@ -1,14 +1,16 @@
+@import '../../styles/_variables.scss';
+
 .container {
-  background-color: #fff;
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 1px 20px rgba(0, 0, 0, 0.1);
+    background-color: $background-color;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 1px 20px $box-shadow-color;
 }
 
 .noSelection {
-  font-size: 1.2rem;
-  color: #999;
-  padding: 2rem;
-  text-align: center;
-  border: 2px dashed #ccc;
+    font-size: 1.2rem;
+    color: $text-color-light;
+    padding: 2rem;
+    text-align: center;
+    border: 2px dashed $border-color;
 }
